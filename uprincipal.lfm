@@ -1,0 +1,125 @@
+object Form1: TForm1
+  Left = 268
+  Height = 435
+  Top = 250
+  Width = 418
+  Caption = 'Form1'
+  ClientHeight = 435
+  ClientWidth = 418
+  Color = clSkyBlue
+  Menu = MainMenu1
+  LCLVersion = '4.8.0.0'
+  OnCreate = FormCreate
+  object Edit1: TEdit
+    Left = 8
+    Height = 23
+    Top = 88
+    Width = 262
+    TabOrder = 0
+    TextHint = 'Ingrese un Numero Natural'
+  end
+  object Label1: TLabel
+    Left = 8
+    Height = 32
+    Top = 48
+    Width = 110
+    Caption = 'NATURAL'
+    Font.CharSet = ANSI_CHARSET
+    Font.Height = -24
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    ParentFont = False
+  end
+  object Button1: TButton
+    Left = 8
+    Height = 60
+    Top = 120
+    Width = 81
+    Caption = 'CREAR'
+    Color = clActiveCaption
+    TabOrder = 1
+    OnClick = Button1Click
+  end
+  object MainMenu1: TMainMenu
+    Left = 16
+    Top = 1
+    object MenuItem1: TMenuItem
+      Caption = 'Natural'
+      object MenuItem4: TMenuItem
+        Caption = 'Salir'
+        OnClick = MenuItem1Click
+      end
+    end
+    object MenuItem2: TMenuItem
+      Caption = 'Digitos'
+      object MenuItem5: TMenuItem
+        Caption = 'Insertar'
+      end
+      object MenuItem6: TMenuItem
+        Caption = 'Obtener'
+      end
+      object MenuItem7: TMenuItem
+        Caption = 'Eliminar'
+      end
+      object MenuItem8: TMenuItem
+        Caption = 'Cantidad'
+      end
+      object MenuItem9: TMenuItem
+        Caption = 'Sumar'
+      end
+      object MenuItem10: TMenuItem
+        Caption = 'Pares'
+      end
+      object MenuItem11: TMenuItem
+        Caption = 'Impares'
+      end
+      object MenuItem12: TMenuItem
+        Caption = 'Primos'
+      end
+      object MenuItem13: TMenuItem
+        Caption = 'Mayor'
+      end
+      object MenuItem14: TMenuItem
+        Caption = 'Menor'
+      end
+    end
+    object MenuItem3: TMenuItem
+      Caption = 'Enteros'
+      object MenuItem15: TMenuItem
+        Caption = 'Invertir'
+      end
+      object MenuItem16: TMenuItem
+        Caption = 'Capicua'
+      end
+      object MenuItem17: TMenuItem
+        Caption = 'Par'
+      end
+      object MenuItem18: TMenuItem
+        Caption = 'Impar'
+      end
+      object MenuItem19: TMenuItem
+        Caption = 'Primo'
+      end
+      object MenuItem20: TMenuItem
+        Caption = 'Conversion a Binario'
+      end
+      object MenuItem21: TMenuItem
+        Caption = 'Conversion a Octal'
+      end
+      object MenuItem22: TMenuItem
+        Caption = 'Conversion a hexadecimal'
+      end
+      object MenuItem23: TMenuItem
+        Caption = 'Conversion a Base N'
+      end
+      object MenuItem24: TMenuItem
+        Caption = 'Conversion a Romano'
+      end
+      object MenuItem25: TMenuItem
+        Caption = 'Conversion a Literal'
+        OnClick = MenuItem1Click
+      end
+    end
+  end
+end
